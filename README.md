@@ -1,29 +1,40 @@
-# WeatherApplication
+# Application Météo
 
-This template should help get you started developing with Vue 3 in Vite.
+Ceci est une application météo développée avec Vue.js et Tailwind CSS en vue de ma formation, tout en utilisant l'API OpenWeather pour obtenir les données météorologiques.
 
-## Recommended IDE Setup
+## Fonctionnalités
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Affiche les informations météorologiques actuelles pour une localisation donnée.
+- Permet de rechercher des informations météo par nom de ville ou code postal.
+- Affiche la température, l'humidité, la vitesse du vent et les conditions météorologiques en temps réel.
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clonez le dépôt : `git clone https://github.com/YoannMyr/WeatherApplication.git`
+2. Accédez au répertoire du projet : `cd WeatherApplication`
+3. Installez les dépendances : `npm install`
 
-## Project Setup
+## Configuration
 
-```sh
-npm install
-```
+1. Vous pouvez obtenir une clé API gratuite auprès d'OpenWeather à l'adresse [https://openweathermap.org/].
+   ![image](https://github.com/YoannMyr/WeatherApplication/assets/105818304/71249d57-9f3e-46e1-a6af-e9c7ea06c0f1)
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+## Utilisation
 
-### Compile and Minify for Production
+1. Lancez l'application : `npm run serve`
+2. Ouvrez votre navigateur et accédez à `http://localhost:8080`
 
-```sh
-npm run build
-```
+## Technologies utilisées
+
+- Vue.js
+- Tailwind CSS
+- Axios (pour les requêtes API)
+
+## Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre une idée ou un problème.
+
+## Contact
+
+Pour toute question ou suggestion, n'hésitez pas à m'ajouter et me dm sur discord -> coldm.
